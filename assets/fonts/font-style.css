@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'yapari';
+    src: url('YapariTrial.eot');
+    src: url('YapariTrial.eot?#iefix') format('embedded-opentype'),
+        url('YapariTrial.woff2') format('woff2'),
+        url('YapariTrial.woff') format('woff'),
+        url('YapariTrial.ttf') format('truetype'),
+        url('YapariTrial.svg#YapariTrial-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

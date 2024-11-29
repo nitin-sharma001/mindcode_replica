@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{padding:0px; margin:0px;}
+
+
+
+/********************************************Common css********************************************/
+body {background:#000; font-family: "Outfit", sans-serif; font-size: 16px; font-weight: 400; line-height:1.2;}
+a{text-decoration:none;}
+ul li {list-style:none;}
+img {max-width:100%;}
+p{margin-bottom:15px;}
+
+.container {padding:0 20px; max-width:1440px; margin:auto;}
+
+.fleft {float:left;}
+.fright {float:right;}
+.clearfix {clear:both;}
+
+.font-yapari {font-family: 'yapari';}
+
+.btn {border-radius:50px; padding:16px 32px; display:inline-block;}
+.item-shadow{box-shadow: 0 0 50px #0006;}
+
+ul.d-inline-block li {display:inline-block;}
+.tb-pad{padding-top:20px;padding-bottom:20px;}
+
+h1,h2,h3,h4,h5,h6{font-weight : 500;}
+h1{font-size: 59px; }
+h2{font-size: 35px; font-weight : 600; }
+h3{font-size:29px;}
+h4{font-size: 25px;}
+h5{font-size: 18px;}
+h6{font-size: 14px;}
+
+/********************************************Color Theme css********************************************/
+.bg-purple {background:#8338dc;}
+.text-purple {color:#8338dc;}
+.btn-purple {background:#8338dc; color:#fff;}
+.btn-purple:hover {background:#8338dc;}
+
+.bg-white {background:#fff;}
+.text-white {color:#fff;}
+.btn-white {background:#fff; color:#000;}
+.btn-white-outline {border:2px solid #fff; color:#fff;}
+.btn-white:hover {background:#fff;}
+
+.bg-black {background:#000;}
+.text-black {color:#000;}
+.btn-black {background:#000; color:#fff;}
+.btn-black:hover {background:#000;}
+
+.btn:hover{background-color:#696969;  color: #fff;  cursor: pointer; }
+
+.text-gray{color : #464141;}
+
+/********************************************Header css********************************************/
+.outer-bg{ background-image : url("../images/pattern.png"); background-size: cover;}
+
+#header{position : relative; }
+#header .navbar {margin:47px 0px 0px 313px; font-size:20px;}
+#header .navbar li+li {margin-left:23px;}
+#header .navbar li a{color:#fff;}
+#header .navbar .dropdown-menu{position: relative;}
+#header .navbar .dropdown-menu .dropdown {  display: none;  position: absolute; top:25px; left:5px;  background-color: #fff;   box-shadow: 0 4px 30px #0003; border-radius:15px; overflow:hidden; z-index: 1;}
+#header .navbar .dropdown-menu .dropdown li {margin-left:0px;}
+#header .navbar .dropdown-menu .dropdown a { border-bottom: 1px solid #0003;  color: #000; min-width:200px; padding : 10px 10px; font-size:16px; text-decoration: none;  display: block;}
+#header .navbar .dropdown-menu .dropdown a:hover {background-color: #8338dc; color:#fff}
+#header .navbar .dropdown-menu:hover .dropdown {display: block;}
+
+
+#header .btn {margin:34px 85px 0 0; padding:16px 32px;}
+#header .logo img {    padding: 38px 0 60px 55px;    position: relative; z-index: 1;}
+#header .logo:before {    background: #fff;    border-radius: 50%; content: "";    height: 368px; box-shadow: 0 0 50px #0006;  left: -58px; position: absolute;    top: -206px;  width: 368px;   z-index: 0;}
+
+#header .navbar .dropdown-menu:hover:before{ background: #fff; border-radius: 50%; content: "";    height: 30px; left: 0; margin: 0 auto; position: absolute; right: 0;top: -62px;width: 30px;
+}
+/********************************************Main css********************************************/
+
+#banner {padding:20px 0 80px 0;}
+#banner .bnr-box {width:40%;}
+#banner .bnr-content{margin:10.5% 0 0 8.5%;font-size: 18px; }
+#banner .bnr-content h4{ font-size:26px; padding-top : 1px; line-height:33px; font-weight:400 }
+#banner .bnr-content h5{ font-size:20px; padding-top : 10px; font-weight:500 }
+#banner .bnr-content .btn{padding : 13.5px 43px; margin-top:35px; font-size : 21.8px}
+#banner .bnr-img{padding-right :9% }
+
+/********************************************technology css********************************************/
+
+#tecnology  h2{border-right: 2px solid #8e47e2; font-size : 28px; line-height:33px; font-weight:600;  padding:15px 25px 0 50px; width : 181px; margin-right : 55px;}
+#tecnology img { height : 81px; margin-right : 65px; }
+
+/********************************************Our Services css********************************************/
+
+#services{padding : 50px 0;}
+#services .black-box{ border-radius : 60px;  padding : 60px; padding-bottom:33px; margin:  0 15px; }
+#services .black-box .upper-content{ width : 43%; margin-bottom : 25px;}
+#services .black-box .upper-content h4{ font-size : 20px; font-weight : 500; margin: 19px 0;}
+#services .black-box .upper-content h6{ font-size : 16.5px; font-weight : 500; margin: 19px 0;}
+#services .black-box .read-btns .btn{padding : 16px 32px; margin-top : 16px;}
+#services .black-box .read-btns .right-btns h6{font-size:20px; }
+#services .black-box .read-btns .right-btns .btn{padding: 5px 15px;}
+#services .black-box .read-btns .btn i{ padding :0 4px 2px 4px; font-size : 24px }
+#services .black-box .read-btns .btn span{ padding :10px 4px 2px 4px; font-size : 18px }
+
+#services .black-box .cards-container{margin-top: 40px; }
+#services .black-box .service-card {font-size : 18px; width:21%; line-height:25px; margin:0 20px 30px 0; padding: 80px 0 0 30px;   background-color: #fff;  color: #000;  cursor: pointer; border-radius : 20px;}
+#services .black-box .service-card img{width : 55px; height :57px;}
+#services .black-box .service-card h6{padding : 10px 0; font-size:18px}
+#services .black-box .service-card:hover{background-color :#8338dc; color : #fff; }
+/********************************************About Us css********************************************/
+
+#about .about-us-inner{padding: 60px 0;}
+#about .about-us-inner .content{max-width:44%; padding-left : 38px; padding-top : 10%; padding-right:2%;}
+#about .about-us-inner .content h2{padding-bottom:15px}
+#about .about-us-inner .content h6{font-size : 20px; font-weight : 500; padding-bottom : 22px;}
+#about .about-us-inner .content .para{ line-height : 28px; padding-bottom : 30px;}
+
+#about .about-us-inner .about-us-right{ border-radius : 25px; position:relative; width:46%; margin-right:4%}
+#about .about-us-inner .about-us-right img{  object-fit: cover; border-radius:25px;}
+#about .about-us-inner .about-us-right .experience h3{font-weight:600;}
+#about .about-us-inner .about-us-right .experience h4{font-size:21px;font-weight:600;}
+#about .about-us-inner .about-us-right .experience{ background-color: #fff; border-radius: 10px;left: -38px; padding: 12px 16px; position: absolute; top: 46px; width: 150px; z-index:3;}
+
+/********************************************Featured css********************************************/
+
+#featured .inner-section{ padding : 60px 0 90px;text-align:center;}
+#featured .inner-section h2{ margin-bottom : 31px;}
+#featured .inner-section .para{ line-height : 28px; padding-bottom : 20px}
+#featured .inner-section .verka-container{ width : 45%; border-radius : 30px; padding : 1px 0; margin: 20px 28%;}
+#featured .inner-section .verka-container .verka-desc{font-size : 10px }
+#featured .inner-section .arrow{font-size : 25px}
+
+/********************************************Contact us css********************************************/
+
+#contact-us 
+
+/********************************************Featured css********************************************/
+
+#about-ceo img{ background-image: url("../images/ceo-img.png");  background-position: 50%;   background-size: cover;  }
+#about-ceo .ceo-section{padding : 60px 0; }
+
+#about-ceo .ceo-section h2{margin-bottom : 30px; text-align : center;}
+#about-ceo .ceo-section .para{line-height : 28px; font-size:16px; font-weight : 400; margin-bottom:40px; text-align : center;}
+
+#about-ceo .ceo-section .main-img {  position: relative;  z-index: 2; margin-left:25%; margin-top : 3.5%;margin-bottom: 40px;}
+#about-ceo .ceo-section .main-img img { position: relative;  z-index: 2;  width: 350px; height:420px;  object-fit: cover;  object-position: top; border-radius : 30px}
+#about-ceo .ceo-section .main-img .img-content { width:28%;   position: absolute; padding: 45px 50px;  z-index: 1;  top: 16%; left:30%; border-radius : 20px;}
+#about-ceo .ceo-section .main-img .img-content h4{ font-size : 21px; font-weight:700;}
+#about-ceo .ceo-section .main-img .img-content p{ font-size : 14px; }
+#about-ceo .ceo-section .main-img .img-content .bold-para{line-height:25px; padding-bottom : 21px;}
+#about-ceo .ceo-section .main-img .img-content .bold-para h5{font-weight:700 ;}
+#about-ceo .ceo-section .main-img .img-content .bold-para h6{ padding-top:10px; font-weight:500 ;}
+#about-ceo .ceo-section .main-img .img-content .skype a{ font-size : 35px ;}
+#about-ceo .ceo-section .main-img .img-content .skype .skype-content{ line-height : 2px; padding-left: 8px; margin-top:10px}
+
+
+/********************************************Footer css********************************************/
+
+#footer .footer-left{padding:0 15px; margin-left : 38px; }
+#footer .footer-left img{margin-top : 20px; }
+#footer .footer-left p{ padding-top : 20px; }
+
+#footer .footer-right { padding:37px 30px; padding-bottom:20px;  margin-right : 20px }
+#footer .footer-right .upper-links{ margin-bottom : 30px; }
+#footer .footer-right .mid-links{ margin-bottom : 36px; }
+#footer .footer-right ul li a{ padding : 0 10px; }
+#footer .footer-right .bottom-links a{ padding : 9px 10px; border-radius:30px; margin-left :10px }
+
+#footer .line{ height : 1px; }
+
+#footer .footer-bottom p{ margin:24px 52px; margin-right : 50px}
